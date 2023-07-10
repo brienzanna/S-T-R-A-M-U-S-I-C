@@ -4,6 +4,7 @@ body {
   border: none;
   font-family: 'Volkhov', serif;
 }
+
 /*..............NAVBAR-hamburger.............*/
 nav{
   background-color: #100303;
@@ -40,7 +41,7 @@ header {
   position: fixed;
   height: auto;
   background-size: cover;
-  width: 50px;
+  width: 100%;
   height:10%;
   z-index: 2;
   background-color: #100303;
@@ -81,7 +82,7 @@ header ul {
 
 .header .menu-icon{
   /*border: 1px solid red;----------------PANINOOOOOOOO-----------------------*/
-  padding: 5% 1%;
+  padding: 7% 1%;
   position: relative;
   float: right;
   cursor: pointer;
@@ -159,7 +160,7 @@ header ul {
 
   .header li a {
     padding: 20px 20px;
-    margin-top: 0px;
+    margin-top: 0%;
   }
 
   .header .menu{
@@ -218,10 +219,10 @@ h1 {
   color:#fff;
   float:left;
   z-index:1;
-  margin-left: 30%;
+  margin-left: 25%;
   position: absolute;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 200%;
 
 }
 .stra {
@@ -235,10 +236,10 @@ h1 {
 
 .sottotitolo-home {
   color: white;
-  font-size: 70%;
+  font-size: 90%;
   text-align: left;
   margin-top: -21%;
-  margin-left: 34%;
+  margin-left: 25%;
 
 }
 
@@ -279,15 +280,15 @@ h1 {
 .item2 {
   grid-column: 2;
   grid-row: 1; 
-  background-color: rgb(255, 0, 119);
-  padding:0%;
+  background-color:rgba(234, 16, 118, 0.952);
+  padding:2%;
 }
 
 .item3 {
   grid-column: 1;
   grid-row: 2;
-  background-color:  rgb(255, 0, 119);
-  padding: 0%;
+  background-color: rgba(234, 16, 118, 0.952) ;
+  padding: 2%;
 }
 
 .item4 {
@@ -415,8 +416,8 @@ a.btn.btn-primary {
   width: 100%;
 }
 #dei-curiosi{
-  margin-top:-22%;
-  margin-left: 50%;
+  margin-top:-20%;
+  margin-left: 45%;
   margin-bottom: 26%;
   font-size: 18px;
   color: rgb(255, 0, 119);
@@ -495,6 +496,7 @@ a.btn.btn-primary {
     height: 53%;
     background-color: #fff;
     color:#100303;
+    font-size: 100%;
   }
   .baseline-dispensa h3{
     margin-top: 5%;
@@ -519,12 +521,12 @@ a.btn.btn-primary {
   right:0;
 }
 #titolo-quiz{
-  margin-left: 40%;
+  margin-left: 38%;
 }
 
 #sottotitolo-quiz{
   margin-top: -20%;
-  margin-left: 40%;
+  margin-left: 30%;
   font-size: 90%;
   color: #fff;
 }
@@ -629,20 +631,41 @@ a.btn.btn-primary {
 
 
 @media (min-width: 60em) {
+  #titolo-quiz{
+    margin-left: 39%;
+  }
 
   #sottotitolo-quiz {
-    margin-left: 37%;
+    margin-left: 36%;
     font-size: 30px;
   }
-  .baseline-quiz{
+  .quiz{
+    background-color: #fff;
+    margin: 0%;
+  }
+  .container .baseline-quiz{
     font-size: 20px;
-    background-color: #100303;
-    color:#fff;
+    background-color:#fff;
+    color:#100303;
+    margin: 18% 0% 10% 0%;
+    border: 14px solid rgb(255, 0, 119);
+    padding: 5% 10% 44% 10%;
   }
   .btn {
     float: left;
     width: 100%;
-    /*box-sizing: border-box;*/
+    padding: 0%;
+
+  }
+  #next-btn{
+    margin-top: 20%;
+    margin-right: 5%;
+    padding: 1% 2%;
+  }
+  #answer-buttons{
+    padding: 10%;
+    margin-top: -10%;
+    margin-left: 10%;
   }
 }
 
@@ -662,7 +685,7 @@ a.btn.btn-primary {
   width: 100%;
   height: 100%;
   margin-top:0%;
-  margin-left:0%;
+  margin-left:5%;
   margin-right: -5%;
   background-color: #100303;
   padding: 8% 3% 20% 5%;
@@ -693,6 +716,12 @@ a.btn.btn-primary {
   }
   .quiz-container-rls {
     padding-top: 4%;
+    background-color: #fff;
+    font-size: 20px;
+    color:#100303;
+    border: 14px solid rgb(255, 0, 119);
+    width: 80%;
+    margin-left: 11%;
   }
   .quiz-container-rls h1{
     font-size: 150%;
@@ -700,7 +729,14 @@ a.btn.btn-primary {
   .quiz-container-rls h2 {
     margin-left: 0%;
     font-size: 120%;
+    color:#100303;
   }
+
+  #audio-container {
+    margin-top: -3%;
+    margin-left: 20%;
+  }
+
 
 }
 
@@ -733,6 +769,12 @@ a.btn.btn-primary {
 
   .quiz-container-dom-pt-123 {
     padding-top: 4%;
+    background-color: #fff;
+    font-size: 20px;
+    color:#100303;
+    border: 14px solid rgb(255, 0, 119);
+    width: 80%;
+    margin-left: 11%;
   }
   .quiz-container-dom-pt-123 h1{
     font-size: 150%;
@@ -740,6 +782,7 @@ a.btn.btn-primary {
   .quiz-container-dom-pt-123 h2 {
     margin-left: 0%;
     font-size: 120%;
+    color: #100303;
   }
 
 }
@@ -748,7 +791,7 @@ a.btn.btn-primary {
 
 /*...........CONSIGLI.............*/
 .container-fluid-consigli {
-  background-color: rgb(255, 0, 119);
+  background-color: #100303;
   width: 180%;
   height: auto;
   position: relative;
@@ -765,7 +808,7 @@ a.btn.btn-primary {
   width: 100%; 
   height: auto;
   display: block;
-  margin-top: 10%;
+  margin-top: 5%;
   z-index: 0;
   padding:0;
   background-size: cover;
@@ -786,11 +829,51 @@ a.btn.btn-primary {
     position:relative;
   }
   .immagine-sfondo-consigli{
-    visibility:hidden;
+    margin-top: -5%;
     position: fixed;
   }
 }
+
+/*...............DOCUMENTAZIONE..............*/
+.documentazione{
+  color: #fff;
+  margin: 5%;
+}
+.documentazione h1{
+  margin-left: 15%;
+  margin-top: -28%;
+  font-size: 145%;
+  text-align: left;
   
+}
+@media (min-width: 60em) {
+  .documentazione{
+    color: #fff;
+    margin: 5%;
+    border:10px solid rgb(255, 0, 119);
+    padding: 3%;
+  }
+  .documentazione h1{
+    margin-left: 15%;
+    margin-top: -33%;
+    font-size: 58px;
+    text-align: center;
+    
+  }
+  .documentazione h2 {
+    color: rgb(255, 0, 119);
+    font-size: 220%;
+  }
+  .documentazione h3{
+    font-size: 170%;
+    color: rgba(234, 16, 118, 0.952);
+    margin-top: 5%;
+  }
+  .documentazione h4{
+    color: rgba(234, 16, 118, 0.952);
+    margin: 5% 0% 3% 0%;
+  }
+}
 /*...............FOOTER.............*/
 
 #footer {
@@ -802,10 +885,34 @@ a.btn.btn-primary {
   padding-top: 5%;
   position: relative;
 }
+#footer-consigli {
+  color:#333;
+  background-color: #100303;
+  font-size: 50%;
+  text-align: left;
+  top: 120%;
+  left:40%;
+  position: absolute;
+}
 
 @media (min-width: 60em) {
   #footer {
     font-size: 15px;
     padding-top: 5%;
+    background-color: #100303;
+  }
+  #footer-consigli {
+    background-color: #100303;
+    color:#333;
+    font-size: 70%;
+    text-align: left;
+    margin-bottom: -10%;
+    margin-left: -47%;
+    padding-top: 5%;
+    padding-left: 25%;
+    position: relative;
+
   }
 }
+
+
