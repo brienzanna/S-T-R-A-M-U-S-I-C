@@ -81,7 +81,7 @@ header ul {
 }
 
 .header .menu-icon{
-  /*border: 1px solid red;----------------PANINOOOOOOOO-----------------------*/
+  /*border: 1px solid red;----------------HAMBURGER-----------------------*/
   padding: 7% 1%;
   position: relative;
   float: right;
@@ -120,7 +120,7 @@ header ul {
 .header .menu-btn {
   display:none; /*la checkbox cioè il quadratino bianco non c'è più ma il comportamento c'è ancora*/
 }
-.header .menu-btn:checked ~ .menu { /*quando la chackbox è checkata quello che ti dico di fare lo vai a fare sul menu, è per questo che si usa la tilde*/
+.header .menu-btn:checked ~ .menu { /*quando la checkbox è checkata quello che ti dico di fare lo vai a fare sul menu, è per questo che si usa la tilde*/
   margin-top:20px;
   max-height: 240px;
 }
@@ -252,15 +252,15 @@ h1 {
   margin-left: 0%;
   margin-top: 17%;
   margin-bottom:0%;
-  width: 100%; /* Regola la larghezza dell'immagine al 100% della larghezza del contenitore */
+  width: 100%; 
 
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Due colonne di larghezza uguale */
-  grid-template-rows: auto auto; /* Due righe di altezza automatica */
-  grid-gap: 10px; /* Spazio tra le celle */
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  grid-gap: 10px; 
   grid-gap: 0px;
 }
 
@@ -301,7 +301,7 @@ h1 {
 .item2 img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Adatta l'immagine alle dimensioni del suo contenitore */
+  object-fit: cover; 
 }
 
 #idraulofono-img {
@@ -411,7 +411,7 @@ a.btn.btn-primary {
 /*...............DISPENSA.............*/
 
 .custom-container{
-  margin-top: -5%;
+  margin-top: -10%;
   background-color: #100303;
   width: 100%;
 }
@@ -471,8 +471,8 @@ a.btn.btn-primary {
 
 
 #telharmonium-img {
-  width: 20%; /* Imposta la larghezza desiderata */
-  height: 5%; /* Imposta l'altezza automaticamente in base alla larghezza */
+  width: 20%; 
+  height: 5%; 
 }
 
 #braille-img {
@@ -482,8 +482,9 @@ a.btn.btn-primary {
 @media (min-width: 60em) {
 
   .custom-container{
-    margin-top: -5%;
+    margin-top: -10%;
     background-color: #fff;
+    border-top:10px solid rgb(255, 0, 119);
   }
   .menu-list-dispensa {
     font-size: 100%;
@@ -493,7 +494,7 @@ a.btn.btn-primary {
     line-height: 2;
   }
   .baseline-dispensa {
-    height: 53%;
+    height: 55%;
     background-color: #fff;
     color:#100303;
     font-size: 100%;
@@ -647,7 +648,7 @@ a.btn.btn-primary {
     font-size: 20px;
     background-color:#fff;
     color:#100303;
-    margin: 18% 0% 10% 0%;
+    margin: 20% 0% 10% 0%;
     border: 14px solid rgb(255, 0, 119);
     padding: 5% 10% 44% 10%;
   }
@@ -846,6 +847,16 @@ a.btn.btn-primary {
   text-align: left;
   
 }
+.documentazione h2 {
+  color: rgb(255, 0, 119);
+}
+.documentazione h3{
+  color: rgba(234, 16, 118, 0.952);
+}
+.documentazione h4{
+  color: rgba(234, 16, 118, 0.952);
+}
+
 @media (min-width: 60em) {
   .documentazione{
     color: #fff;
@@ -887,13 +898,15 @@ a.btn.btn-primary {
 }
 #footer-consigli {
   color:#333;
-  background-color: #100303;
-  font-size: 50%;
-  text-align: left;
-  top: 120%;
-  left:40%;
+  font-size: 60%;
+  text-align: center;
+  top: 125%;
+  margin-left:0%;
   position: absolute;
+  background-color: #100303;
+  padding: 5% 29% 0% 43%;
 }
+
 
 @media (min-width: 60em) {
   #footer {
@@ -907,7 +920,7 @@ a.btn.btn-primary {
     font-size: 70%;
     text-align: left;
     margin-bottom: -10%;
-    margin-left: -47%;
+    margin-left: 0%;
     padding-top: 5%;
     padding-left: 25%;
     position: relative;
